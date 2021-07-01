@@ -1,4 +1,4 @@
-<p align="center"><a href="https://pheogrammer.github.io" target="_blank"><img src="https://www.github.com/pheogrammer/arifu/public/images/app/arifu.png" width="400"></a></p>
+<p align="center"><a href="https://pheogrammer.github.io" target="_blank"><img src="https://pheogrammer.github.io/images/arifu.png" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
