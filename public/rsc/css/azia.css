@@ -1,8 +1,4 @@
 /*
-* Azia v1.0.0 (https://www.bootstrapdash.com/demo/azia/v1.0/)
-* Copyright 2019 BootstrapDash
-* Licensed under BootstrapDash License
-*
 *
 * ------ Table Of Contents -------
 *
@@ -93,17 +89,10 @@
 *      9.9  Width
 *
 */
-/* ############### FONTS IMPORT ############### */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800");
-/* ############### BOOTSTRAP FRAMEWORK ############### */
-/*!
- * Bootstrap v4.5.2 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --blue: #3366ff;
   --indigo: #5b47fb;
@@ -2592,7 +2581,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  
+
   .btn-group-vertical > .btn,
   .sp-container .btn-group-vertical > button,
   .btn-group-vertical > .btn-group {
@@ -11039,7 +11028,7 @@ textarea.parsley-success:focus {
   @media (min-width: 992px) {
     .az-footer .container {
       padding: 10px 0 0; } }
-  
+
   .az-footer .container-fluid,
   .az-footer .container-sm,
   .az-footer .container-md,
@@ -12111,7 +12100,7 @@ body {
     .az-navbar > .container {
       padding: 0; } }
   @media (min-width: 992px) {
-    
+
     .az-navbar > .container-fluid,
     .az-navbar > .container-sm,
     .az-navbar > .container-md,
