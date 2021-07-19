@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Azia Responsive Bootstrap 4 Dashboard Template</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="stylesheet" href="{{asset('rsc/css/azia.css')}}">
 
     <link href="{{asset('rsc/lib/typicons.font/typicons.css')}}" rel="stylesheet">
@@ -16,7 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand tx-22 text-danger font-weight-bold" href="#">
-                    Arifu
+                        <img src="{{asset('images/app/arifu00.png')}}" alt="Arifu" width="100px" srcset="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#leadUIMainNav"
                     aria-controls="leadUIMainNav" aria-expanded="false" aria-label="Toggle navigation">
