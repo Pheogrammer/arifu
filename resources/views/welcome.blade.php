@@ -40,7 +40,7 @@
         <div class="card"><img src="{{asset('rsc/img/seven.jpg')}}" class="img-fluid" alt=""></div>
       </div><!-- card-columns -->
       <div class="az-home-content">
-        <div class="az-logo">{{ config('app.name', 'Laravel') }}</div>
+        <div class="az-logo"> <img src="{{asset('images/app/arifu04.png')}}" alt="{{ config('app.name', 'Laravel') }}" width="50%"> </div>
         <h5>Responsive Bootstrap 4 Dashboard Template</h5>
 
         <div class="logo-group">
@@ -51,11 +51,11 @@
           <i class="fab fa-gulp"></i>
         </div>
 
-        <h1>Get Better Dashboard Design Right Now!</h1>
+        <h1>Share emails, information from one app!</h1>
         <p class="mg-b-25">When your dashboard or app is attractive to use, your users will not simply be using it, they’ll look forward to using it. This means that you should fashion the look and feel of your interface for your users.</p>
         <p>
-          <a id="azDemoBtn" href="#azDemo" class="btn btn-light flex-1 mg-r-10">View Demo</a>
-          <a href="#" class="btn btn-primary flex-1">Buy Template</a>
+          <a id="azDemoBtn" href="#azDemo" class="btn btn-primary flex-1 mg-r-10">Login</a>
+          <a href="#" class="btn btn-primary flex-1">Register</a>
         </p>
 
         <nav>
@@ -66,135 +66,9 @@
       </div><!-- az-home-content -->
     </div><!-- az-home-slider -->
 
-    <div id="azDemo" class="az-content az-content-choose-demo">
-      <div class="container">
-        <label class="title-label">Layout Variants</label>
-        <h1 class="title">Choose Dashboard Layout</h1>
-        <p class="title-text">Azia comes with 10 pre-built dashboard template each with own purpose and layouts.</p>
 
-        <div class="row">
-          <div class="col-sm-6 col-lg-4">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/one.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-one.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Classic (Default)</label>
-            <h6 class="az-content-title">Web Analytics Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-sm-t-0">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/two.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-two.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Classic Sidebar</label>
-            <h6 class="az-content-title">Sales Monitoring Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-0">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/three.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-three.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Classic Iconbar</label>
-            <h6 class="az-content-title">Ad Campaign Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/four.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-four.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Light Color Skin </label>
-            <h6 class="az-content-title">Event Management Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/five.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-five.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Light Sidebar </label>
-            <h6 class="az-content-title">Helpdesk Management Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/six.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-six.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Light Iconbar</label>
-            <h6 class="az-content-title">Finance Monitoring Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/seven.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-seven.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Minimalist Design</label>
-            <h6 class="az-content-title">Cryptocurrency Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/eight.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-eight.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Colored Header Variant</label>
-            <h6 class="az-content-title">Executive/SaaS Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/nine.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-nine.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Colored Sidebar Variant</label>
-            <h6 class="az-content-title">Campaign Monitoring Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card">
-              <figure>
-                <img src="{{asset('rsc/img/ten.jpg')}}" class="img-fluid" alt="">
-                <figcaption><a href="dashboard-ten.html" target="_blank" class="btn btn-primary">Live Preview</a></figcaption>
-              </figure>
-            </div>
-            <label class="az-content-label az-content-label-sm">Colored Iconbar Variant</label>
-            <h6 class="az-content-title">Product Management Dashboard</h6>
-          </div><!-- col -->
-          <div class="col-sm-6 col-lg-4 mg-t-40 mg-lg-t-50">
-            <div class="card coming-soon">
-              <i class="typcn typcn-chart-line-outline"></i>
-              <h6>More Coming Soon</h6>
-            </div>
-          </div><!-- col -->
-        </div><!-- row -->
-      </div><!-- container-fluid -->
-    </div><!-- az-content -->
-
-    <div class="az-footer bg-gray-900 bd-t-0 ht-40">
-      <div class="container pd-t-0-f ht-100p">
-        <div>&copy; {{date('Y')}} {{ config('app.name', 'Laravel') }}.</div>
-        <nav class="nav">
-          <a href="#" class="nav-link">Terms of Use</a>
-          <a href="#" class="nav-link">License</a>
-          <a href="#" class="nav-link">Refund Policy</a>
-          <a href="#" class="nav-link">Change Log</a>
-        </nav>
-      </div><!-- container -->
-    </div><!-- az-footer -->
-
+        {{-- <div>&copy; {{date('Y')}} {{ config('app.name', 'Laravel') }}.</div> --}}
+       
     <script src="{{asset('rsc/lib/jquery/jquery.min.js')}}"></script>
     <script src="{{asset('rsc/lib/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('rsc/lib/ionicons/ionicons.js')}}"></script>
