@@ -12717,7 +12717,7 @@ body {
         transform: rotate(44deg); } }
     @media (min-width: 768px) {
       .az-home-slider .card-columns {
-        transform: rotate(45deg);
+        transform: rotate(0deg);
         width: 100%;
         top: 0;
         left: auto;
