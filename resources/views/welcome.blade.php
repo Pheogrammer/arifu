@@ -140,17 +140,17 @@
                       </div><!-- form-group -->
                       <button class="btn btn-az-primary btn-block">Create Account</button>
 
-                      <button class="btn btn-az-primary btn-block">Create Account</button>
-                      <button class="btn btn-az-primary btn-block">Create Account</button>
-                      <button class="btn btn-az-primary btn-block">Create Account</button>
-                      
-                        <div class="col-sm-4"><a href="#" class="btn btn-danger"><i class="fab fa-google"></i> Signup with Google</a></div>
-                        <div class="col-sm-4"><a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i> Signup with Facebook</a></div>
-                        <div class="col-sm-4"><a href="#" class="btn btn-primary"><i class="fab fa-twitter"></i> Signup with Twitter</a></div>
-
-                    </form>
+                    </form> <br>
+                    <div class="text-center text-dark" >
+                        OR
+                    </div> <br>
+                    <div>
+                        <a class="btn btn-az-primary btn-block"> <i class="fab fa-twitter"></i> Signup with Twitter</a></a>
+                        <a class="btn btn-danger btn-block"><i class="fab fa-google"></i> Signup with Google</a></a>
+                        <a class="btn btn-primary btn-block"><i class="fab fa-facebook-f"></i> Signup with Facebook</a></a>
+                    </div>
                   </div><!-- az-signup-header -->
-                  <div class="az-signup-footer">
+                  <div class="az-signup-footer"> <br>
                     <p>Already have an account? <a href="#login">Login</a></p>
                   </div><!-- az-signin-footer -->
                 </div><!-- az-column-signup -->
