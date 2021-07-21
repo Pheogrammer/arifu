@@ -23,7 +23,7 @@
         <div class="card"><img src="{{asset('rsc/img/seven.jpg')}}" class="img-fluid" alt=""></div>
       </div><!-- card-columns -->
       <div class="az-home-content">
-        <div class="az-logo"> <img src="{{asset('images/app/arifu04.png')}}" alt="{{ config('app.name', 'Laravel') }}" width="50%"> </div>
+        <a  href="{{ url('/') }}"  class="az-logo"> <img src="{{asset('images/app/arifu04.png')}}" alt="{{ config('app.name', 'Laravel') }}" width="50%"> </a>
         <h5>Responsive Bootstrap 4 Dashboard Template</h5>
 
         <div class="logo-group">
