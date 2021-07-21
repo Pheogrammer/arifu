@@ -17,21 +17,40 @@
             <h2>Login</h2>
             <h4>It's free to signup and only takes a minute.</h4>
 
-            <form action="#">
+            <form action="#" method="" enctype="multipart/form-data">
+                @csrf
               <div class="form-group">
-                <label>Email</label>
-                <input type="text" class="form-control" placeholder="Enter your email">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                @error('email')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
               </div><!-- form-group -->
               <div class="form-group">
-                <label>Password</label>
-                <input type="password" class="form-control" placeholder="Enter your password">
-              </div><!-- form-group -->
-              <button class="btn btn-az-primary btn-block">Create Account</button>
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter your password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                @error('email')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
+            </div><!-- form-group -->
+              <button type="submit" class="btn btn-az-primary btn-block">Login</button>
+
 
             </form>
           </div><!-- az-signup-header -->
           <div class="az-signup-footer">
-            <p>Don't have an account? <a href="{{ route('register') }}">Register</a></p>
+            <p>@if (Route::has('password.request'))
+                Forgot Your Password?
+                <a href="{{ route('password.request') }}">
+                    Recover
+                </a>
+              @endif
+            </p> <br>
+            <p>Don't have an account? <a href="{{ route('register') }}"> Register</a></p>
           </div><!-- az-signin-footer -->
         </div><!-- az-column-signup -->
       </div><!-- az-signup-wrapper -->
