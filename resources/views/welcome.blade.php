@@ -37,8 +37,16 @@
         <h1>Share emails, information from one app!</h1>
         <p class="mg-b-25">When your dashboard or app is attractive to use, your users will not simply be using it, they’ll look forward to using it. This means that you should fashion the look and feel of your interface for your users.</p>
         <p>
-          <a id="loginBtn" href="{{ route('login') }}" class="btn btn-primary flex-1 mg-r-10">Login</a>
-          <a id="registerBtn" href="{{ route('register') }}" class="btn btn-primary flex-1">Register</a>
+            @if (Route::has('login'))
+                    @auth
+                        <a id="loginBtn" href="{{ url('/home') }}" class="btn btn-primary flex-1 mg-r-10">Home</a>
+                    @else
+                        <a id="loginBtn" href="{{ route('login') }}" class="btn btn-primary flex-1 mg-r-10">Login</a>
+                        @if (Route::has('register'))
+                            <a id="registerBtn" href="{{ route('register') }}" class="btn btn-primary flex-1">Register</a>
+                        @endif
+                    @endauth
+            @endif
         </p>
 
         <nav>
