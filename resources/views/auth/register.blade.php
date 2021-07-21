@@ -62,13 +62,13 @@
                 </div>
                 <div class="row row-xs">
                     <div class="col-sm-4">
+                        <a class=" btn btn-danger btn-block" style="background-color: red;"><i class="fab fa-google"></i> Signup with Google</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a class="btn btn-primary btn-block"><i class="fab fa-linkedin"></i> Signup with Linkedin</a>
+                    </div>
+                    <div class="col-sm-4">
                         <a class="btn btn-az-primary btn-block"> <i class="fab fa-twitter"></i> Signup with Twitter</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a class=" btn btn-danger btn-block"><i class="fab fa-google"></i> Signup with Google</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a class="btn btn-primary btn-block"><i class="fab fa-facebook-f"></i> Signup with Facebook</a>
                     </div>
                 </div>
               </div><!-- az-signup-header -->
