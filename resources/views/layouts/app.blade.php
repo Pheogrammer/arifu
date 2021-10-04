@@ -29,23 +29,15 @@
         <div class="az-sidebar-body">
           <ul class="nav">
             <li class="nav-label">Main Menu</li>
-            <li class="nav-item active show">
-              <a href="index.html" class="nav-link with-sub"><i class="typcn typcn-clipboard"></i>Dashboard</a>
+            <li class="nav-item show">
+              <a href="index.html" class="nav-link with-sub"><i class="typcn typcn-contacts"></i>Contacts</a>
               <ul class="nav-sub">
                 <li class="nav-sub-item"><a href="dashboard-one.html" class="nav-sub-link">Web Analytics</a></li>
-                <li class="nav-sub-item active"><a href="dashboard-two.html" class="nav-sub-link">Sales Monitoring</a></li>
-                <li class="nav-sub-item"><a href="dashboard-three.html" class="nav-sub-link">Ad Campaign</a></li>
-                <li class="nav-sub-item"><a href="dashboard-four.html" class="nav-sub-link">Event Management</a></li>
-                <li class="nav-sub-item"><a href="dashboard-five.html" class="nav-sub-link">Helpdesk Management</a></li>
-                <li class="nav-sub-item"><a href="dashboard-six.html" class="nav-sub-link">Finance Monitoring</a></li>
-                <li class="nav-sub-item"><a href="dashboard-seven.html" class="nav-sub-link">Cryptocurrency</a></li>
-                <li class="nav-sub-item"><a href="dashboard-eight.html" class="nav-sub-link">Executive / SaaS</a></li>
-                <li class="nav-sub-item"><a href="dashboard-nine.html" class="nav-sub-link">Campaign Monitoring</a></li>
-                <li class="nav-sub-item"><a href="dashboard-ten.html" class="nav-sub-link">Product Management</a></li>
+                <li class="nav-sub-item "><a href="dashboard-two.html" class="nav-sub-link">Sales Monitoring</a></li>
               </ul>
             </li><!-- nav-item -->
             <li class="nav-item">
-              <a href="#" class="nav-link with-sub"><i class="typcn typcn-document"></i>Apps &amp; Pages</a>
+              <a href="#" class="nav-link"><i class="typcn typcn-clipboard"></i>Social</a>
               <ul class="nav-sub">
                 <li class="nav-sub-item">
                   <a href="app-mail.html" class="nav-sub-link">Mailbox</a>
@@ -228,21 +220,17 @@
                     @else
 
                     <div class="dropdown az-profile-menu">
-                    <a href="#" class="az-img-user"><img src="https://via.placeholder.com/500" alt=""></a>
+                    <a href="#" class="az-img-user"><img src="{{asset('images/user.png')}}" alt="user picture"></a>
                     <div class="dropdown-menu">
                     <div class="az-dropdown-header d-sm-none">
                         <a href="#" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
                     </div>
                     <div class="az-header-profile">
-                        <div class="az-img-user">
-                        <img src="https://via.placeholder.com/500" alt="">
-                        </div><!-- az-img-user -->
                         <h6>{{ Auth::user()->name }}</h6>
                         <span>{{ Auth::user()->email }}</span>
                     </div><!-- az-header-profile -->
 
-                    <a href="#" class="dropdown-item"><i class="typcn typcn-user-outline"></i> My Profile</a>
-                    <a href="#" class="dropdown-item"><i class="typcn typcn-edit"></i> Edit Profile</a>
+                    <a href="{{route('profile')}}" class="dropdown-item"><i class="typcn typcn-user-outline"></i> My Profile</a>
                     <a href="#" class="dropdown-item"><i class="typcn typcn-time"></i> Activity Logs</a>
                     <a href="#" class="dropdown-item"><i class="typcn typcn-cog-outline"></i> Account Settings</a>
                     <a class="dropdown-item" href="{{ route('logout') }}"
