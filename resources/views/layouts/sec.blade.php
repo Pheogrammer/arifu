@@ -9,7 +9,7 @@
     <meta name="author" content="{{ config('app.author', 'pheogrammer') }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" type="image/png" href="{{ url('/images/arifu-02.png') }}"/>
+    <link rel="icon" type="image/svg" href="{{ url('/images/arifu-icon-darker.svg') }}"/>
 
     <!-- vendor css -->
     <link href="{{asset('rsc/lib/fontawesome-free/css/all.min.css')}}" rel="stylesheet">

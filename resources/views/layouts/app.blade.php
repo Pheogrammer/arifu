@@ -10,7 +10,7 @@
     <meta name="author" content="{{ config('app.author', 'pheogrammer') }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" type="image/png" href="{{ url('/images/arifu-02.png') }}"/>
+    <link rel="icon" type="image/svg" href="{{ url('/images/arifu-icon-darker.svg') }}"/>
 
     <!-- css -->
     <link href="{{asset('rsc/lib/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
@@ -21,9 +21,9 @@
   </head>
   <body class="az-body  az-body-sidebar">
 
-    <div class="az-sidebar">
+    <div class="az-sidebar az-sidebar-sticky">
         <div class="az-sidebar-header">
-            <a href="{{ url('/') }}" class="az-logo"><img src="{{asset('images/arifu-01.png')}}" alt="{{ config('app.name', 'Laravel') }}" width="50%"></a>
+            <a href="{{ url('/') }}" class="az-logo"><img src="{{asset('images/arifu-logo-darker.svg')}}" alt="{{ config('app.name', 'Laravel') }}" width="50%"></a>
         </div><!-- az-sidebar-header -->
 
         <div class="az-sidebar-body">
