@@ -206,17 +206,7 @@
                 </div><!-- dropdown-menu -->
               </div><!-- az-header-notification -->
               @guest
-                    @if (Route::has('login'))
-                        {{-- <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                        </li> --}}
-                    @endif
-
-                    @if (Route::has('register'))
-                        {{-- <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                        </li> --}}
-                    @endif
+                   
                     @else
 
                     <div class="dropdown az-profile-menu">
@@ -252,7 +242,7 @@
 
     <div class="az-footer ht-40">
         <div class="container-fluid pd-t-0-f ht-100p">
-          <span>&copy; 2019 Azia Responsive Bootstrap 4 Dashboard Template</span>
+          <span> {{ config('app.name', 'Laravel') }} &copy; {{date('Y')}}  </span>
         </div><!-- container -->
       </div><!-- az-footer -->
     </div><!-- az-content -->
